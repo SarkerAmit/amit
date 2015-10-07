@@ -1,0 +1,350 @@
+body {
+    margin: 0 auto;
+}
+
+.header {
+    color: white;
+    background-image: url(../img/Header-Background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-weight: bold;height: 100%;
+    
+}
+
+.header img{padding: 0 2% 0 2%;opacity: .5;}
+.header a {
+    color: white;
+    text-transform: uppercase;
+}
+.header-sub p{font-weight: 800;text-transform: uppercase;}
+.header-sub a:hover {
+    color: #20B2AA;
+    background-image: url(../img/Header-Background.png);
+}
+.header-sub h1,.header-sub h2,.header-sub p{text-align: center;}
+.header-sub h2 {
+    margin-top:5%;margin-bottom: 3%;font-family: 'Pacifico', cursive;/*font-family: 'Cookie', cursive;font-family: 'Pinyon Script', cursive;*/font-size: 350%;font-weight: 400; 
+}
+
+.header-sub h1 {
+    font-size: 400%;
+    font-family: sans-serif;text-transform: uppercase;
+}
+
+.header-sub button {
+    padding: 1% 4%;
+    text-transform: uppercase;
+    margin: 5% 0 10% 38%;
+    border-radius: 25px;
+    background-image: url(../img/Header-Background.png);
+}
+
+.header-sub button:hover {
+    background: #20B2AA;
+    color: white;
+    border: 1px solid #20B2AA;
+}
+
+.main-1,.main-3,.main-5
+    {
+    background: #D3D3D3;
+}
+.main-1-sub i:hover{color: green;}
+.main-1-sub .main1-p {
+    font-size: 500%;
+    margin-top: 35%;
+    color: #20B2AA;
+    text-align: center;
+}
+.main-1-sub h2,.main-3-sub h2,.main-2-sub h2{  font-size: 130%;}
+
+.main-1-sub h2,.main-3-sub h2,.main-2-sub h2 ,.main-4-sub h2,.main-5-sub h2,.main-6-sub h2,.main-7-sub-top h2{
+  font-weight: bold;text-transform: uppercase;
+}
+.main-1-sub h2{text-align: center;}
+.main-1-sub .p {
+    text-align: center;
+    font-size: 90%;
+    opacity: .5;
+    margin-bottom: 35%;
+}
+.main-1-sub hr,.main-3-sub hr,.main-5-sub hr{opacity: .3;}
+.main-2-sub,.main-3-sub,.main-4-sub{margin-top: 5%;margin-bottom: 5%;}
+.main-2-sub h2{margin-top: 15%;margin-bottom: 2%;font-size: 110%;}
+.main-2-sub p{font-weight: 400;opacity: .5;}
+.main-2-sub img:hover{cursor:crosshair;opacity: .8;}
+.main-4-sub img:hover{cursor:crosshair;opacity: .8;}
+.main-6-sub img:hover{cursor:crosshair;opacity: .8;}
+.main-2-sub button{
+    padding: 4% 6%;
+    margin:8% 0 0 0;
+    border-radius: 25px;
+    background: white;
+    border: 1px solid #20B2AA;
+    color: #20B2AA;
+}
+
+.main-2-sub button:hover {
+    background: #20B2AA;
+    color: white;
+    border: 1px solid #20B2AA;
+}
+
+.main-3-sub p{font-weight: 600;opacity: .6;}
+
+
+.main-3-sub button{
+    padding: 2% 4%;
+    margin:8% 0 0 0;
+    border-radius: 25px;
+    background: #D3D3D3;
+    border: 1px solid grey;
+}
+
+.main-3-sub button:hover {
+    background: grey;
+    color: white;
+    border: 1px solid grey;
+}
+
+.main-4-sub h2{font-size: 100%;font-weight: bold;}
+.main-4-sub p{font-size: 90%;font-weight: 500;opacity: .6;}
+.main-4-sub h3{font-size: 110%;color: #20B2AA;opacity: 1;}
+.main-4-sub h3:hover{color:green;}
+.main-5-sub{margin-top: 5%;margin-bottom: 5%;}
+.main-5-sub h2{font-size: 150%;font-weight: bold;}
+.main-5-sub p{font-weight: 500;opacity: .6;}
+.main-5-sub h2 i{color: grey;margin-right: 5%;}
+.main-5-sub button{
+    padding: 4% 6%;
+    margin:8% 0 0 0;
+    border-radius: 25px;
+    background: #D3D3D3;
+    border: 1px solid #20B2AA;
+    color: #20B2AA;
+}
+
+.main-5-sub button:hover {
+    background: #20B2AA;
+    color: white;
+    border: 1px solid #20B2AA;
+}
+
+.main-6-sub{margin-top: 5%;margin-bottom: 5%;}
+.main-6-sub h2{font-size: 140%;}
+.main-6-sub p{font-weight: 600;opacity: .6;}
+.main-6-sub button{
+    padding: 4% 6%;
+    margin:8% 0 0 0;
+    border-radius: 25px;
+    background: white;
+    border: 1px solid grey;
+}
+
+.main-6-sub button:hover {
+    background: grey;
+    color: white;
+    border: 1px solid grey;
+}
+.main-6-sub img{margin-top:5%;}
+.main-7-sub-top{margin-top: 5%;}
+.main-7{background: #20B2AA;color: white;}
+.main-7-sub-top hr{opacity: .2;}
+.main-7-sub-top h2{font-size: 200%;opacity: .9;}
+
+.main-7-sub-bottom{margin-bottom: 3%;}
+
+.footer-sub-left{margin-top: 2%;}
+.footer-sub-left p span{opacity: .5;}
+.footer-sub-right a{color: grey;font-size: 150%;}
+.footer-sub-right a:hover{color: #20B2AA;}
+.footer-sub-right button {
+    padding: 1% 4%;
+    text-transform: uppercase;
+    margin: 5% 0 10% 39%;
+    border-radius: 25px;
+    background: grey;
+}
+
+.footer-sub-right button:hover {
+    background: #20B2AA;
+    color: white;
+    border: 1px solid #20B2AA;
+}
+.main-7-sub-bottom .fst-h1{font-family: 'Pacifico', cursive;font-weight: 400;opacity:.6;}
+.main-7-sub-bottom .second-h1,.main-7-sub-bottom .fourth-h1{font-family: 'Josefin Sans', sans-serif;opacity:.6;}
+.main-7-sub-bottom .third-h1{font-family: 'Signika', sans-serif;opacity:.6;}
+.main-7-sub-bottom .fourth-h1{font-weight: bold;}
+.main-7-sub-bottom .fst-h1:hover{cursor:crosshair;opacity: .8;}
+.main-7-sub-bottom .second-h1:hover{cursor:crosshair;opacity: .8;}
+.main-7-sub-bottom .third-h1:hover{cursor:crosshair;opacity: .8;}
+.main-7-sub-bottom .fourth-h1:hover{cursor:crosshair;opacity: .8;}
+/* Adding Animation */ 
+
+.header-sub{
+ -webkit-animation: mymove 2s ; /* Chrome, Safari, Opera */ 
+    animation: mymove 2s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+.main-1-sub{
+ -webkit-animation: mymove1 6s ; /* Chrome, Safari, Opera */ 
+    animation: mymove1 6s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove1 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove1 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+
+.main-2-sub{
+ -webkit-animation: mymove2 8s ; /* Chrome, Safari, Opera */ 
+    animation: mymove2 8s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove2 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove2 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+.main-3-sub{
+ -webkit-animation: mymove3 10s ; /* Chrome, Safari, Opera */ 
+    animation: mymove3 10s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove3 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove3 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+.main-4-sub{
+ -webkit-animation: mymove4 12s ; /* Chrome, Safari, Opera */ 
+    animation: mymove4 12s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove4 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove4 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+.main-5-sub{
+ -webkit-animation: mymove5 14s ; /* Chrome, Safari, Opera */ 
+    animation: mymove5 14s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove5 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove5 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+.main-6-sub{
+ -webkit-animation: mymove6 16s ; /* Chrome, Safari, Opera */ 
+    animation: mymove6 16s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove6 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove6 {
+    0%   {top: 200px;}
+    100% {top: 0px;}
+}
+
+.main-7{
+ -webkit-animation: mymove7 18s ; /* Chrome, Safari, Opera */ 
+    animation: mymove7 18s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove7 {
+    0%   {top: 300px;}
+    100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove7 {
+    0%   {top: 300px;}
+    100% {top: 0px;}
+}
+.footer-sub-left{
+ -webkit-animation: mymove8 20s ; /* Chrome, Safari, Opera */ 
+    animation: mymove8 20s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove8 {
+    0%   {left: -200px;}
+    100% {left: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove8 {
+    0%   {left: -200px;}
+    100% {left: 0px;}
+}
+
+.footer-sub-right{
+ -webkit-animation: mymove9 20s ; /* Chrome, Safari, Opera */ 
+    animation: mymove9 20s ;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove9 {
+    0%   {right: -200px;}
+    100% {right: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove9 {
+    0%   {right: -200px;}
+    100% {right: 0px;}
+}
